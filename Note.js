@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const router = express.Router();
 
-// ----------------- MONGOOSE MODEL -----------------
+
 const noteSchema = new mongoose.Schema({
     title: { type: String, required: true },
     content: { type: String, required: true }
@@ -10,9 +10,9 @@ const noteSchema = new mongoose.Schema({
 
 const Note = mongoose.model('Note', noteSchema);
 
-// ----------------- CRUD ROUTES -----------------
 
-// CREATE a new note
+
+
 router.post('/', async (req, res) => {
     try {
         const newNote = new Note({
@@ -26,7 +26,7 @@ router.post('/', async (req, res) => {
     }
 });
 
-// READ all notes
+
 router.get('/', async (req, res) => {
     try {
         const notes = await Note.find();
@@ -36,7 +36,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-// UPDATE a note
+
 router.put('/:id', async (req, res) => {
     try {
         const updatedNote = await Note.findByIdAndUpdate(
