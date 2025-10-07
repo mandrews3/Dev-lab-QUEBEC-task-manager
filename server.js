@@ -83,7 +83,7 @@ app.delete("/api/notes/:id", async (req, res) => {
     }
 });
 
-// ----------------- START SERVER -----------------
+
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
