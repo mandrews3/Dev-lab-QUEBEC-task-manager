@@ -6,3 +6,15 @@
 
 <img src="image/Screenshot 2025-10-07 191711.png" alt="MyApp Screenshot" width="600"/>
 
+## Features 
+- You are able to add task, edit task, and delete task.
+- You are able to sort task by date or priority.
+- Responsive style Design.
+- Task Organization.
+- User interface and Experience.
+- Persistence / Data Storage
+
+## Links For My App
+- Render: https://dev-lab-quebec-task-manager.onrender.com
+- MongoDB: https://cloud.mongodb.com/v2/68b9ce470853b6203dc730e8#/overview
+- GitHub: 
