@@ -4,4 +4,4 @@
 
 # App Dashboard
 
-![Dashboard Screenshot] (images/
+![Dashboard Screenshot] (images/2025-10-07 191711.png) 
