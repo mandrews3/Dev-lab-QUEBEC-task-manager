@@ -4,5 +4,5 @@
 
 # App Dashboard
 
-<img src="image/2025-10-07 191711.png" alt="MyApp Screenshot" width="600"/>
+<img src="image/Screenshot 2025-10-07 191711.png" alt="MyApp Screenshot" width="600"/>
 
